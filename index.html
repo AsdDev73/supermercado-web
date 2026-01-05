@@ -11,13 +11,18 @@
 <body>
 
     <header>
-        <h1>Supermercado Fresh</h1>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo Supermercado Fresh">
+            <span>Supermercado Fresh</span>
+        </div>
+
         <nav>
             <a href="index.html">Inicio</a>
-            <a href="#">Categorías</a>
-            <a href="#">Ofertas</a>
+            <a href="#" onclick="mostrarMensaje()">Categorías</a>
+            <a href="#" onclick="mostrarMensaje()">Ofertas</a>
         </nav>
     </header>
+
 
     <main>
         <section class="banner">
@@ -47,6 +52,12 @@
     <footer>
         <p>© 2026 Supermercado Fresh</p>
     </footer>
+
+    <script>
+        function mostrarMensaje() {
+            alert("Próximamente disponible");
+        }
+    </script>
 
 </body>
 
